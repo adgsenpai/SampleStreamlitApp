@@ -7,11 +7,9 @@ def main() -> None:
     Inputs: two numeric values (float)
     Output: their sum
     """
-    st.set_page_config(page_title="Add Two Numbers", page_icon="➕", layout="centered")
+    st.set_page_config(page_title="Add Numbers", page_icon="➕", layout="centered")
 
-    st.title("Add Two Numbers")
-    st.write("A minimal demo app to add two numbers. Good for Streamlit Cloud deployment.")
-
+    st.title("Add Numbers")
     # Tiny contract:
     # - inputs: two floats via number_input
     # - output: displayed sum as float
