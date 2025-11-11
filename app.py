@@ -25,10 +25,16 @@ def main() -> None:
         result = a + b
         st.success(f"Result: {result}")
 
+    # do multipication
+    if st.button("Multiply"):
+        result = a * b
+        st.success(f"Result: {result}")
+
     # Also show live preview
     st.markdown("---")
     st.write("Live preview (updates immediately):")
     st.info(f"{a} + {b} = {a + b}")
+    st.info(f"{a} * {b} = {a * b}")
 
 
 if __name__ == "__main__":
